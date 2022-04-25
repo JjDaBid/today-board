@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from "react-router-dom";
-import { Header, IconLogoMobile, LogoImage, Menu, MenuItem, MenuItemLink, NavbarContainer, NavbarWrapper } from './NavbarContainer'
+// import { Link } from "react-router-dom";
+import { Header, IconLogoMobile, LogoImage, Menu, MenuItem, MenuItemLink, NavbarContainer, NavbarWrapper, } from './NavbarContainer'
 import logo from '../../assets/img/TodayBoard.png'
 
 
@@ -32,26 +32,26 @@ function Navbar() {
                 <Menu click={click}>
 
                     <MenuItem onClick={() => changeClick()}>
-                        <MenuItemLink>
-                            <Link to='/'> Home</Link>                            
+                        <MenuItemLink to='/'>Home
+                            {/* <Link to='/'> Home</Link>                             */}
                         </MenuItemLink>
                     </MenuItem>
 
                     <MenuItem onClick={() => changeClick()}>
-                        <MenuItemLink>
-                            <Link to='/tasks'> Tasks</Link>  
+                        <MenuItemLink to='/tasks'>Tasks
+                            {/* <Link > Tasks</Link>   */}
                         </MenuItemLink>
                     </MenuItem>    
 
                     <MenuItem onClick={() => changeClick()}>
-                        <MenuItemLink>
-                            <Link to='/'> Login</Link>
+                        <MenuItemLink>Login
+                            {/* <Link to='/'> Login</Link> */}
                         </MenuItemLink>
                     </MenuItem>
 
                     <MenuItem onClick={() => changeClick()}>
-                        <MenuItemLink>
-                            <Link to='/'> Register</Link>
+                        <MenuItemLink>Register
+                            {/* <Link to='/'> Register</Link> */}
                         </MenuItemLink>
                     </MenuItem>                  
 
