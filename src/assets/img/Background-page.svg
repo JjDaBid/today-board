@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1730 1000" style="enable-background:new 0 0 1730 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Forma_2_1_);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Forma_1_1_);}
+</style>
+<linearGradient id="Forma_2_1_" gradientUnits="userSpaceOnUse" x1="-37" y1="635.5" x2="1017" y2="635.5">
+	<stop  offset="0" style="stop-color:#FDF0F7"/>
+	<stop  offset="0.1124" style="stop-color:#FAF0F7"/>
+	<stop  offset="0.2621" style="stop-color:#FCF7F6"/>
+	<stop  offset="0.3539" style="stop-color:#FFFEF5"/>
+	<stop  offset="0.4969" style="stop-color:#FBFBF5"/>
+	<stop  offset="0.6317" style="stop-color:#F0F3F7"/>
+	<stop  offset="0.7135" style="stop-color:#E5EBF8"/>
+	<stop  offset="1" style="stop-color:#FEEEE7"/>
+</linearGradient>
+<path id="Forma_2" class="st0" d="M541,159l80,407L-37,978l49,94l406,40l599-533L541,159z"/>
+<linearGradient id="Forma_1_1_" gradientUnits="userSpaceOnUse" x1="227" y1="457.5" x2="2575" y2="457.5">
+	<stop  offset="0" style="stop-color:#10B5C3"/>
+	<stop  offset="0.4888" style="stop-color:#ADDADA"/>
+	<stop  offset="1" style="stop-color:#005B78"/>
+</linearGradient>
+<path id="Forma_1" class="st1" d="M1020.4-87.4L523,148l219,431l-515,429l2348,3L2561-96L1020.4-87.4z"/>
+</svg>

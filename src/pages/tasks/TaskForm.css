@@ -1,0 +1,152 @@
+.form {
+    display: inline-flexbox;
+    width: 100%;
+    padding: 20px;
+}
+
+.image {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.image img {
+    width: 20%;
+}
+
+.activity-label {  
+    width: 50%;  
+    text-align: center;
+    margin: 30px auto;
+    display: block;
+    font-size: 1.7rem;
+    color: cyan;
+}
+
+.activity-section {
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.activity-box {
+    width: 50%;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px 10px 0px;
+    margin: auto;
+    font-size: 1.3rem;
+}
+
+.button-section {
+    width: 50%;
+    display: flex;    
+    margin: auto;
+    justify-content: center;
+}
+
+.accept-button {
+    width: 50%;
+    background-color: cyan;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: darkcyan;
+}
+
+.cancel-button {
+    width: 50%;
+    background-color: cyan;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: darkcyan;
+
+}
+
+.accept-button:hover{
+    background: darkcyan;
+    color: azure
+}
+
+.cancel-button:hover{
+    background: red;
+    color: azure
+}
+
+
+@media screen and (max-width: 1020px) {
+    
+    .form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .activity-label {  
+        width: 100%;  
+        text-align: center;
+        margin-top: 40px;
+        display: block;
+        font-size: 1.7rem;
+        color: cyan;
+    }
+
+    .activity-box {
+        width: 200%;
+        border: solid;
+        border-color: black;
+        border-radius: 10px;
+        padding: 5px 10px 0px;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+
+    .button-section {
+        width: 100%;
+        display: flex;    
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    /* .button-section {
+        width: 50%;
+        display: flex;    
+        margin: auto;
+        justify-content: center;
+    } */
+   
+
+    .accept-button {
+        width: 100%;
+        background-color: cyan;
+        padding: 10px;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        color: darkcyan;
+    }
+    
+    .cancel-button {
+        width: 100%;
+        background-color: cyan;
+        padding: 10px;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        color: darkcyan;
+    }
+
+    .accept-button:hover{
+        background: darkcyan;
+        color: azure
+    }
+    
+    .cancel-button:hover{
+        background: red;
+        color: azure
+    }    
+
+  }
+
