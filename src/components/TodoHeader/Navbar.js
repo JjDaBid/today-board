@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Header, IconLogoMobile, LogoImage, Menu, MenuItem, MenuItemLink, NavbarContainer, NavbarWrapper, } from './NavbarContainer'
 import logo from '../../assets/img/TodayBoard.png'
 
@@ -33,25 +33,25 @@ function Navbar() {
 
                     <MenuItem onClick={() => changeClick()}>
                         <MenuItemLink to='/'>Home
-                            {/* <Link to='/'> Home</Link>                             */}
+                            <Link className= { MenuItemLink } to='/'> Home</Link>                            
                         </MenuItemLink>
                     </MenuItem>
 
                     <MenuItem onClick={() => changeClick()}>
                         <MenuItemLink to='/tasks'>Tasks
-                            {/* <Link > Tasks</Link>   */}
+                            <Link className= { MenuItemLink } > Tasks</Link>  
                         </MenuItemLink>
                     </MenuItem>    
 
                     <MenuItem onClick={() => changeClick()}>
                         <MenuItemLink>Login
-                            {/* <Link to='/'> Login</Link> */}
+                            <Link className= { MenuItemLink } to='/'> Login</Link>
                         </MenuItemLink>
                     </MenuItem>
 
                     <MenuItem onClick={() => changeClick()}>
                         <MenuItemLink>Register
-                            {/* <Link to='/'> Register</Link> */}
+                            <Link className= { MenuItemLink } to='/'> Register</Link>
                         </MenuItemLink>
                     </MenuItem>                  
 
