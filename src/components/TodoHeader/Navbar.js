@@ -34,25 +34,25 @@ function Navbar() {
 
                     <MenuItem onClick={() => changeClick()}>
                         <section className='Linkto'>
-                            <Link className='Linkto' to='/'>Home</Link>                            
+                            <Link className='Linkto' to='today-board/'>Home</Link>                            
                         </section>
                     </MenuItem>
 
                     <MenuItem onClick={() => changeClick()}>
                         <section className='Linkto'>
-                            <Link className='Linkto' to='/tasks'>Tasks</Link>  
+                            <Link className='Linkto' to='today-board/tasks'>Tasks</Link>  
                         </section>
                     </MenuItem>    
 
                     <MenuItem onClick={() => changeClick()}>
                         <section className='Linkto'>
-                            <Link className='Linkto' to='/'>Login</Link>
+                            <Link className='Linkto' to='today-board/'>Login</Link>
                         </section>
                     </MenuItem>
 
                     <MenuItem onClick={() => changeClick()}>
                         <section className='Linkto'>
-                            <Link className='Linkto' to='/'>Register</Link>
+                            <Link className='Linkto' to='today-board/'>Register</Link>
                         </section>
                     </MenuItem>                  
 

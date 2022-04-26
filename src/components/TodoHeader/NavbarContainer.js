@@ -13,8 +13,8 @@ export const NavbarContainer = styled.div`
     rgba(10, 37, 64, 0.35) 
     0px -2px 6px 0px inset;    
 `
-export const Header = styled.div`   
-    max-width: 1200px;
+export const Header = styled.div`  
+    max-width: 100%;
     height: 100%;
     margin: auto;
     display: fixed;
@@ -24,8 +24,7 @@ export const Header = styled.div`
 `
 export const NavbarWrapper = styled.div`
     margin: auto;
-    width: 100%;
-    max-width: 1200px;
+    width: 80%;
     height: 100%;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +42,7 @@ export const LogoImage = styled.div`
 export const Menu = styled.ul`
     height: 50px;
     display: flex;
-    margin: 0, auto;
+    margin: 30px;
 
     @media screen and (max-width: 900px) {   
         width: 100%;

@@ -16,11 +16,11 @@ function App() {
         <Navbar/> 
 
         <Routes>
-            <Route path="/" element={<Home /> } />            
+            <Route path="today-board/" element={<Home /> } />            
         </Routes>
   
         <Routes>
-            <Route path="/tasks" element={<ToDo/> } />            
+            <Route path="today-board/tasks" element={<ToDo/> } />            
         </Routes>         
                
       </Router>
