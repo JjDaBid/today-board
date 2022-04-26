@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/today-board/static/css/main.7d373756.css",
-    "main.js": "/today-board/static/js/main.21243743.js",
+    "main.css": "/today-board/static/css/main.1d940af9.css",
+    "main.js": "/today-board/static/js/main.1c397f6c.js",
     "static/media/TodayBoard.png": "/today-board/static/media/TodayBoard.e031cc0f84cbbaa0e216.png",
     "static/media/pencil.png": "/today-board/static/media/pencil.3de939c15f104c4de7b3.png",
     "static/media/developer_activity.svg": "/today-board/static/media/developer_activity.2a9c5cb8325151b6978e11a53f33f64b.svg",
@@ -9,11 +9,11 @@
     "static/media/Background-page2.svg": "/today-board/static/media/Background-page2.4f2e2f34e36a5e56bdae.svg",
     "static/media/icon.svg": "/today-board/static/media/icon.fc13b9ffe924f1832606d89cf77bbc27.svg",
     "index.html": "/today-board/index.html",
-    "main.7d373756.css.map": "/today-board/static/css/main.7d373756.css.map",
-    "main.21243743.js.map": "/today-board/static/js/main.21243743.js.map"
+    "main.1d940af9.css.map": "/today-board/static/css/main.1d940af9.css.map",
+    "main.1c397f6c.js.map": "/today-board/static/js/main.1c397f6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d373756.css",
-    "static/js/main.21243743.js"
+    "static/css/main.1d940af9.css",
+    "static/js/main.1c397f6c.js"
   ]
 }
