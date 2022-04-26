@@ -11,8 +11,7 @@ export const NavbarContainer = styled.div`
     rgba(0, 0, 0, 0.3) 
     0px 30px 60px -30px, 
     rgba(10, 37, 64, 0.35) 
-    0px -2px 6px 0px inset;
-    
+    0px -2px 6px 0px inset;    
 `
 export const Header = styled.div`   
     max-width: 1200px;
@@ -45,7 +44,6 @@ export const Menu = styled.ul`
     height: 50px;
     display: flex;
     margin: 0, auto;
-    
 
     @media screen and (max-width: 900px) {   
         width: 100%;
@@ -56,11 +54,9 @@ export const Menu = styled.ul`
         flex-direction: column;
         transition: 0.6s all case-in;
         background-color: black;
-        text-align: center;
-        
+        text-align: center;        
       }
 `
-
 export const MenuItem = styled.li`
     height: 30px;
     padding: 0.2rem 1.5rem;
@@ -91,9 +87,9 @@ export const MenuItem = styled.li`
         margin-bottom 5px;   
         width: 100%;
         height: 70px;
-      }`
+    }`
 
-export const MenuItemLink = styled.a`
+export const MenuItemItem = styled.a`
     text-decoration: none;
     font-size: 18px;
     color: darkcyan;
@@ -103,7 +99,7 @@ export const MenuItemLink = styled.a`
         text-decoration: none;
         color:azure;
         font-size: 1.3rem;
-      }
+    }
 `
 export const IconLogoMobile = styled.div`
     display: none;
@@ -112,8 +108,7 @@ export const IconLogoMobile = styled.div`
           color: turquoise;
           font-size: 2rem;
           font-weight: 800;
-          padding-right: 1rem;   
-    
+          padding-right: 1rem;    
         }
     }
 `

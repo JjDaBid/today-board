@@ -68,7 +68,6 @@
   border-radius: 50%;
   cursor: pointer;
   font-size: 50px;
-  /* position: fixed; */
   bottom: 24px;
   right: 24px;
   font-weight: bold;
@@ -187,7 +186,6 @@
     margin: auto;
     justify-content: center;
     align-items: center;
-    /* margin-top: 10px; */
     font-size: 1.5rem;
     box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
 }
@@ -218,12 +216,6 @@
     color: red;
  }
 
-/* .create-activity {
-    display: flex;
-    margin: auto;
-    color: azure;
- } */
-
  .loading-container,
  .loading-completeIcon,
  .loading-deleteIcon {
@@ -244,7 +236,6 @@
          background-position: 0% 50%;
      }
  }
-
 
  @media screen and (max-width: 900px)  {
 

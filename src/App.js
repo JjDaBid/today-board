@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Navbar } from "./components/TodoHeader/Navbar";
-// import { TodoHeader } from "./components/TodoHeader/TodoHeader";
 import { Home } from "./pages/home/Home"
 import { ToDo } from "./pages/tasks/ToDo";
 

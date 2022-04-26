@@ -1,0 +1,12 @@
+.Linkto a {
+    text-decoration: none;
+    font-size: 18px;
+    color: darkcyan;
+    text-transform: uppercase;
+}
+
+.Linkto a:hover{
+    text-decoration: none;
+    color:azure;
+    font-size: 1.3rem;
+}

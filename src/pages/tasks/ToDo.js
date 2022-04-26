@@ -5,14 +5,11 @@ import { TaskItem } from './TaskItem';
 import { useLocalStorage } from '../../context/useLocalStorage';
 import { Modal } from '../../modal/Modal';
 import { TaskForm } from './TaskForm';
-import './ToDo.css'
-import '../../modal/Modal.css'
 import { LoadingC } from './LoadingC';
 import { CreateC } from './CreateC';
 import { ErrorC } from './ErrorC';
-
-
-
+import './ToDo.css'
+import '../../modal/Modal.css'
 
 
 function ToDo() {
@@ -135,14 +132,10 @@ function ToDo() {
               <TasksList>
 
                 <section className='loading-container'>
-                  {/* <span className='loading-completeIcon'></span> */}
                     {error1 && <ErrorC/>}
                     {loading && <LoadingC/>}
                     {(!loading && !searchedTodos.length) && <CreateC/>}
-                  {/* <span className='loading-deleteIcon'></span> */}
-                </section>              
-
-                
+                </section>            
 
               {searchedTodos.map(todo => (
                   <TaskItem key={todo.text} 
@@ -165,10 +158,6 @@ function ToDo() {
                    />
                 </Modal>
               )}
-
-           
-
-              
 
             </section>
           </section>

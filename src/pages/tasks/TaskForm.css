@@ -112,14 +112,6 @@
         justify-content: space-between;
     }
 
-    /* .button-section {
-        width: 50%;
-        display: flex;    
-        margin: auto;
-        justify-content: center;
-    } */
-   
-
     .accept-button {
         width: 100%;
         background-color: cyan;
@@ -149,4 +141,3 @@
     }    
 
   }
-

@@ -23,12 +23,6 @@
     width: 48px;
 }
 
-/* .loading-deleteIcon {
-    position: absolute;
-    top: -24px;
-    right: 0;
-} */
-
 .loading-message {
     display: flex;
     margin: auto;
@@ -70,5 +64,4 @@
       font-size: 1.1rem;
    }
 
-
-  }
+}
